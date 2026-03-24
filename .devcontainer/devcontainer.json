@@ -7,6 +7,9 @@
     }
   },
   "postCreateCommand": "npm install",
+  "remoteEnv": {
+    "EXPO_NO_TELEMETRY": "1"
+  },
   "customizations": {
     "vscode": {
       "extensions": [
@@ -21,11 +24,15 @@
       }
     }
   },
-  "forwardPorts": [8081],
+  "forwardPorts": [8081, 19006],
   "portsAttributes": {
     "8081": {
       "label": "Expo Dev Server",
       "onAutoForward": "notify"
+    },
+    "19006": {
+      "label": "Expo Web",
+      "onAutoForward": "openBrowser"
     }
   }
 }
