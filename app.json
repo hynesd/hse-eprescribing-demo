@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "HSE Health App",
+    "slug": "hse-eprescribing-demo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#02594C"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "ie.hse.eprescribing.demo"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#02594C"
+      },
+      "package": "ie.hse.eprescribing.demo"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "assetBundlePatterns": ["**/*"]
+  }
+}
